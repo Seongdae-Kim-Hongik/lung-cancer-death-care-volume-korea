@@ -1,0 +1,869 @@
+{
+ "ambroggi2015distance": {
+  "type": "journal",
+  "authors": [
+   "Ambroggi M",
+   "Biasini C",
+   "Del Giovane C",
+   "Fornari F",
+   "Cavanna L"
+  ],
+  "title": "Distance as a barrier to cancer diagnosis and treatment: review of the literature",
+  "journal": "Oncologist",
+  "year": 2015,
+  "vol": "20",
+  "issue": "12",
+  "pages": "1378-1385",
+  "doi": "10.1634/theoncologist.2015-0110",
+  "pmid": "26512045",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "asadzadeh2011mir": {
+  "type": "journal",
+  "authors": [
+   "Asadzadeh Vostakolaei F",
+   "Karim-Kos HE",
+   "Janssen-Heijnen ML",
+   "Visser O",
+   "Verbeek AL",
+   "Kiemeney LA"
+  ],
+  "title": "The validity of the mortality to incidence ratio as a proxy for site-specific cancer survival",
+  "journal": "Eur J Public Health",
+  "year": 2011,
+  "vol": "21",
+  "issue": "5",
+  "pages": "573-577",
+  "doi": "10.1093/eurpub/ckq120",
+  "pmid": "20813895",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "bray2024globocan": {
+  "type": "journal",
+  "authors": [
+   "Bray F",
+   "Laversanne M",
+   "Sung H",
+   "Ferlay J",
+   "Siegel RL",
+   "Soerjomataram I",
+   "Jemal A"
+  ],
+  "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+  "journal": "CA Cancer J Clin",
+  "year": 2024,
+  "vol": "74",
+  "issue": "3",
+  "pages": "229-263",
+  "doi": "10.3322/caac.21834",
+  "pmid": "38572751",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "caini2022quitting": {
+  "type": "journal",
+  "authors": [
+   "Caini S",
+   "Del Riccio M",
+   "Vettori V",
+   "Scotti V",
+   "Martinoli C",
+   "Raimondi S",
+   "Cammarata G",
+   "Palli D",
+   "Banini M",
+   "Masala G",
+   "Gandini S"
+  ],
+  "title": "Quitting smoking at or around diagnosis improves the overall survival of lung cancer patients: a systematic review and meta-analysis",
+  "journal": "J Thorac Oncol",
+  "year": 2022,
+  "vol": "17",
+  "issue": "5",
+  "pages": "623-636",
+  "doi": "10.1016/j.jtho.2021.12.005",
+  "pmid": "34995798",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "cho2019tertiary": {
+  "type": "journal",
+  "authors": [
+   "Cho S",
+   "Chang Y",
+   "Kim Y"
+  ],
+  "title": "Cancer patients' utilization of tertiary hospitals in Seoul before and after the benefit expansion policy",
+  "journal": "J Prev Med Public Health",
+  "year": 2019,
+  "vol": "52",
+  "issue": "1",
+  "pages": "41-50",
+  "doi": "10.3961/jpmph.18.166",
+  "pmid": "30742760",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "choi2017mir": {
+  "type": "journal",
+  "authors": [
+   "Choi E",
+   "Lee S",
+   "Nhung BC",
+   "Suh M",
+   "Park B",
+   "Jun JK",
+   "Choi KS"
+  ],
+  "title": "Cancer mortality-to-incidence ratio as an indicator of cancer management outcomes in Organization for Economic Cooperation and Development countries",
+  "journal": "Epidemiol Health",
+  "year": 2017,
+  "vol": "39",
+  "issue": "",
+  "pages": "e2017006",
+  "doi": "10.4178/epih.e2017006",
+  "pmid": "28171715",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "choi2025screening": {
+  "type": "journal",
+  "authors": [
+   "Choi CK",
+   "Lee NY",
+   "Suh M",
+   "Choi KS",
+   "Kim Y"
+  ],
+  "title": "Changes in uptake, participant disparities, and screening outcomes of the Korean National Lung Cancer Screening Program: a five-year experience",
+  "journal": "Cancer Res Treat",
+  "year": 2025,
+  "vol": "",
+  "issue": "",
+  "pages": "",
+  "doi": "10.4143/crt.2025.067",
+  "pmid": "41223496",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "eckel2016air": {
+  "type": "journal",
+  "authors": [
+   "Eckel SP",
+   "Cockburn M",
+   "Shu YH",
+   "Deng H",
+   "Lurmann FW",
+   "Liu L",
+   "Gilliland FD"
+  ],
+  "title": "Air pollution affects lung cancer survival",
+  "journal": "Thorax",
+  "year": 2016,
+  "vol": "71",
+  "issue": "10",
+  "pages": "891-898",
+  "doi": "10.1136/thoraxjnl-2015-207927",
+  "pmid": "27491839",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "ellis2019mir": {
+  "type": "journal",
+  "authors": [
+   "Ellis L",
+   "Belot A",
+   "Rachet B",
+   "Coleman MP"
+  ],
+  "title": "The mortality-to-incidence ratio is not a valid proxy for cancer survival",
+  "journal": "J Glob Oncol",
+  "year": 2019,
+  "vol": "5",
+  "issue": "",
+  "pages": "1-9",
+  "doi": "10.1200/JGO.19.00038",
+  "pmid": "31070980",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "forrest2013treatment": {
+  "type": "journal",
+  "authors": [
+   "Forrest LF",
+   "Adams J",
+   "Wareham H",
+   "Rubin G",
+   "White M"
+  ],
+  "title": "Socioeconomic inequalities in lung cancer treatment: systematic review and meta-analysis",
+  "journal": "PLoS Med",
+  "year": 2013,
+  "vol": "10",
+  "issue": "2",
+  "pages": "e1001376",
+  "doi": "10.1371/journal.pmed.1001376",
+  "pmid": "23393428",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "howlader2020treatment": {
+  "type": "journal",
+  "authors": [
+   "Howlader N",
+   "Forjaz G",
+   "Mooradian MJ",
+   "Meza R",
+   "Kong CY",
+   "Cronin KA",
+   "Mariotto AB",
+   "Lowy DR",
+   "Feuer EJ"
+  ],
+  "title": "The effect of advances in lung-cancer treatment on population mortality",
+  "journal": "N Engl J Med",
+  "year": 2020,
+  "vol": "383",
+  "issue": "7",
+  "pages": "640-649",
+  "doi": "10.1056/NEJMoa1916623",
+  "pmid": "32786189",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "inskip1983methods": {
+  "type": "journal",
+  "authors": [
+   "Inskip H",
+   "Beral V",
+   "Fraser P",
+   "Haskey J"
+  ],
+  "title": "Methods for age-adjustment of rates",
+  "journal": "Stat Med",
+  "year": 1983,
+  "vol": "2",
+  "issue": "4",
+  "pages": "455-466",
+  "doi": "10.1002/sim.4780020404",
+  "pmid": "6672943",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "jeong2024income": {
+  "type": "journal",
+  "authors": [
+   "Jeong SM",
+   "Jung KW",
+   "Park J",
+   "Lee HJ",
+   "Shin DW",
+   "Suh M"
+  ],
+  "title": "Disparities in overall survival rates for cancers across income levels in the Republic of Korea",
+  "journal": "Cancers (Basel)",
+  "year": 2024,
+  "vol": "16",
+  "issue": "16",
+  "pages": "2923",
+  "doi": "10.3390/cancers16162923",
+  "pmid": "39199693",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "jung2023deprivation": {
+  "type": "journal",
+  "authors": [
+   "Jung W",
+   "Shin DW",
+   "Jung KW",
+   "Kim D",
+   "Park J",
+   "Nari F",
+   "Suh M"
+  ],
+  "title": "The impact of neighborhood deprivation on the survival rates of patients with cancer in Korea",
+  "journal": "Healthcare (Basel)",
+  "year": 2023,
+  "vol": "11",
+  "issue": "24",
+  "pages": "3171",
+  "doi": "10.3390/healthcare11243171",
+  "pmid": "38132061",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "kim2018radon": {
+  "type": "journal",
+  "authors": [
+   "Kim JH",
+   "Ha M"
+  ],
+  "title": "The disease burden of lung cancer attributable to residential radon exposure in Korean homes",
+  "journal": "J Korean Med Sci",
+  "year": 2018,
+  "vol": "33",
+  "issue": "29",
+  "pages": "e223",
+  "doi": "10.3346/jkms.2018.33.e223",
+  "pmid": "30008634",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "kim2022volume": {
+  "type": "journal",
+  "authors": [
+   "Kim BR",
+   "Sohn JY",
+   "Jang EJ",
+   "Jo J",
+   "Lee H",
+   "Ryu HG"
+  ],
+  "title": "Hospital case-volume and mortality after lung cancer surgery: a population-based retrospective cohort study",
+  "journal": "Lung Cancer",
+  "year": 2022,
+  "vol": "169",
+  "issue": "",
+  "pages": "61-66",
+  "doi": "10.1016/j.lungcan.2022.05.016",
+  "pmid": "35660970",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "kim2025overdiagnosis": {
+  "type": "journal",
+  "authors": [
+   "Kim SY",
+   "Silvestri GA",
+   "Kim YW",
+   "Kim RY",
+   "Um SW",
+   "Im Y",
+   "Hwang JH",
+   "Choi SH",
+   "Eom JS",
+   "Gu KM",
+   "Kwon YS",
+   "Lee SY",
+   "Lee HW",
+   "Park DW",
+   "Heo Y",
+   "Jang SH",
+   "Choi KY",
+   "Kim Y",
+   "Park YS"
+  ],
+  "title": "Screening for lung cancer, overdiagnosis, and healthcare utilization: a nationwide population-based study",
+  "journal": "J Thorac Oncol",
+  "year": 2025,
+  "vol": "20",
+  "issue": "5",
+  "pages": "577-588",
+  "doi": "10.1016/j.jtho.2024.12.006",
+  "pmid": "39662732",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "kim2025pa": {
+  "type": "journal",
+  "authors": [
+   "Kim YW",
+   "Kwak KI",
+   "Choi AR",
+   "Park EJ",
+   "Lee BJ",
+   "Lee YJ",
+   "Lee CT"
+  ],
+  "title": "Association of pre- and postdiagnosis physical activity, promotion and maintenance with lung cancer survival: a nationwide cohort study",
+  "journal": "J Cachexia Sarcopenia Muscle",
+  "year": 2025,
+  "vol": "16",
+  "issue": "5",
+  "pages": "e70092",
+  "doi": "10.1002/jcsm.70092",
+  "pmid": "41104479",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "kim2026regional": {
+  "type": "journal",
+  "authors": [
+   "Kim HS",
+   "Yeob KE",
+   "Kim SY",
+   "Han HS",
+   "Park JH"
+  ],
+  "title": "Regional disparities in lung cancer surgery and survival in South Korea: a nationwide population-based retrospective cohort study using linked cancer registry and national health insurance data",
+  "journal": "Transl Lung Cancer Res",
+  "year": 2026,
+  "vol": "15",
+  "issue": "9",
+  "pages": "283",
+  "doi": "10.21037/tlcr-2026-0533",
+  "pmid": "42870884",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "knorrheld2000bayesian": {
+  "type": "journal",
+  "authors": [
+   "Knorr-Held L"
+  ],
+  "title": "Bayesian modelling of inseparable space-time variation in disease risk",
+  "journal": "Stat Med",
+  "year": 2000,
+  "vol": "19",
+  "issue": "17-18",
+  "pages": "2555-2567",
+  "doi": "10.1002/1097-0258(20000915/30)19:17/18<2555::aid-sim587>3.0.co;2-#",
+  "pmid": "10960871",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "kwak2017busan": {
+  "type": "journal",
+  "authors": [
+   "Kwak M",
+   "Kim C"
+  ],
+  "title": "Disparities by age, sex, tumor stage, diagnosis path, and area-level socioeconomic status in survival time for major cancers: results from the Busan Cancer Registry",
+  "journal": "J Korean Med Sci",
+  "year": 2017,
+  "vol": "32",
+  "issue": "12",
+  "pages": "1974-1983",
+  "doi": "10.3346/jkms.2017.32.12.1974",
+  "pmid": "29115079",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "lee2016garbage": {
+  "type": "journal",
+  "authors": [
+   "Lee YR",
+   "Kim YA",
+   "Park SY",
+   "Oh CM",
+   "Kim YE",
+   "Oh IH"
+  ],
+  "title": "Application of a modified garbage code algorithm to estimate cause-specific mortality and years of life lost in Korea",
+  "journal": "J Korean Med Sci",
+  "year": 2016,
+  "vol": "31",
+  "issue": "Suppl 2",
+  "pages": "S121-S128",
+  "doi": "10.3346/jkms.2016.31.S2.S121",
+  "pmid": "27775249",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "lee2020state": {
+  "type": "journal",
+  "authors": [
+   "Lee YC",
+   "Calderon-Candelario RA",
+   "Holt GE",
+   "Campos MA",
+   "Mirsaeidi M"
+  ],
+  "title": "State-level disparity in lung cancer survival in the United States",
+  "journal": "Front Oncol",
+  "year": 2020,
+  "vol": "10",
+  "issue": "",
+  "pages": "1449",
+  "doi": "10.3389/fonc.2020.01449",
+  "pmid": "32974167",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "lee2021trends": {
+  "type": "journal",
+  "authors": [
+   "Lee JG",
+   "Kim HC",
+   "Choi CM"
+  ],
+  "title": "Recent trends of lung cancer in Korea",
+  "journal": "Tuberc Respir Dis (Seoul)",
+  "year": 2021,
+  "vol": "84",
+  "issue": "2",
+  "pages": "89-95",
+  "doi": "10.4046/trd.2020.0134",
+  "pmid": "33587838",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "lee2024ses": {
+  "type": "journal",
+  "authors": [
+   "Lee J",
+   "Park J",
+   "Kim N",
+   "Nari F",
+   "Bae S",
+   "Lee HJ",
+   "Lee M",
+   "Jun JK",
+   "Choi KS",
+   "Suh M"
+  ],
+  "title": "Socioeconomic disparities in six common cancer survival rates in South Korea: population-wide retrospective cohort study",
+  "journal": "JMIR Public Health Surveill",
+  "year": 2024,
+  "vol": "10",
+  "issue": "",
+  "pages": "e55011",
+  "doi": "10.2196/55011",
+  "pmid": "39041282",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "liao2023tb": {
+  "type": "journal",
+  "authors": [
+   "Liao KM",
+   "Lee CS",
+   "Wu YC",
+   "Shu CC",
+   "Ho CH"
+  ],
+  "title": "Prior treated tuberculosis and mortality risk in lung cancer",
+  "journal": "Front Med (Lausanne)",
+  "year": 2023,
+  "vol": "10",
+  "issue": "",
+  "pages": "1121257",
+  "doi": "10.3389/fmed.2023.1121257",
+  "pmid": "37064038",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "lipsitch2010negative": {
+  "type": "journal",
+  "authors": [
+   "Lipsitch M",
+   "Tchetgen Tchetgen E",
+   "Cohen T"
+  ],
+  "title": "Negative controls: a tool for detecting confounding and bias in observational studies",
+  "journal": "Epidemiology",
+  "year": 2010,
+  "vol": "21",
+  "issue": "3",
+  "pages": "383-388",
+  "doi": "10.1097/EDE.0b013e3181d61eeb",
+  "pmid": "20335814",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "logan2022rural": {
+  "type": "journal",
+  "authors": [
+   "Logan CD",
+   "Feinglass J",
+   "Halverson AL",
+   "Lung K",
+   "Kim S",
+   "Bharat A",
+   "Odell DD"
+  ],
+  "title": "Rural-urban survival disparities for patients with surgically treated lung cancer",
+  "journal": "J Surg Oncol",
+  "year": 2022,
+  "vol": "126",
+  "issue": "7",
+  "pages": "1341-1349",
+  "doi": "10.1002/jso.27045",
+  "pmid": "36115023",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "morgenstern1995ecologic": {
+  "type": "journal",
+  "authors": [
+   "Morgenstern H"
+  ],
+  "title": "Ecologic studies in epidemiology: concepts, principles, and methods",
+  "journal": "Annu Rev Public Health",
+  "year": 1995,
+  "vol": "16",
+  "issue": "",
+  "pages": "61-81",
+  "doi": "10.1146/annurev.pu.16.050195.000425",
+  "pmid": "7639884",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "nguyen2023clusters": {
+  "type": "journal",
+  "authors": [
+   "Nguyen CT",
+   "Song I",
+   "Jung I",
+   "Choi YJ",
+   "Kim SY"
+  ],
+  "title": "Changes in spatial clusters of cancer incidence and mortality over 15 years in South Korea: implication to cancer control",
+  "journal": "Cancer Med",
+  "year": 2023,
+  "vol": "12",
+  "issue": "16",
+  "pages": "17418-17427",
+  "doi": "10.1002/cam4.6365",
+  "pmid": "37489117",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "park2023regional": {
+  "type": "journal",
+  "authors": [
+   "Park EH",
+   "Kang MJ",
+   "Jung KW",
+   "Park EH",
+   "Yun EH",
+   "Kim HJ",
+   "Kong HJ",
+   "Choi CK",
+   "Im JS",
+   "Seo HG"
+  ],
+  "title": "Regional disparities in major cancer incidence in Korea, 1999-2018",
+  "journal": "Epidemiol Health",
+  "year": 2023,
+  "vol": "45",
+  "issue": "",
+  "pages": "e2023089",
+  "doi": "10.4178/epih.e2023089",
+  "pmid": "37857340",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "riaz2012resection": {
+  "type": "journal",
+  "authors": [
+   "Riaz SP",
+   "Lüchtenborg M",
+   "Jack RH",
+   "Coupland VH",
+   "Linklater KM",
+   "Peake MD",
+   "Møller H"
+  ],
+  "title": "Variation in surgical resection for lung cancer in relation to survival: population-based study in England 2004-2006",
+  "journal": "Eur J Cancer",
+  "year": 2012,
+  "vol": "48",
+  "issue": "1",
+  "pages": "54-60",
+  "doi": "10.1016/j.ejca.2011.07.012",
+  "pmid": "21871792",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "riebler2016intuitive": {
+  "type": "journal",
+  "authors": [
+   "Riebler A",
+   "Sørbye SH",
+   "Simpson D",
+   "Rue H"
+  ],
+  "title": "An intuitive Bayesian spatial model for disease mapping that accounts for scaling",
+  "journal": "Stat Methods Med Res",
+  "year": 2016,
+  "vol": "25",
+  "issue": "4",
+  "pages": "1145-1165",
+  "doi": "10.1177/0962280216660421",
+  "pmid": "27566770",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "shin2017epi": {
+  "type": "journal",
+  "authors": [
+   "Shin A",
+   "Oh CM",
+   "Kim BW",
+   "Woo H",
+   "Won YJ",
+   "Lee JS"
+  ],
+  "title": "Lung cancer epidemiology in Korea",
+  "journal": "Cancer Res Treat",
+  "year": 2017,
+  "vol": "49",
+  "issue": "3",
+  "pages": "616-626",
+  "doi": "10.4143/crt.2016.178",
+  "pmid": "27669705",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "song2023geographic": {
+  "type": "journal",
+  "authors": [
+   "Song I",
+   "Yoo EH",
+   "Jung I",
+   "Oh JK",
+   "Kim SY"
+  ],
+  "title": "Role of geographic characteristics in the spatial cluster detection of cancer: evidence in South Korea, 1999-2013",
+  "journal": "Environ Res",
+  "year": 2023,
+  "vol": "236",
+  "issue": "Pt 2",
+  "pages": "116841",
+  "doi": "10.1016/j.envres.2023.116841",
+  "pmid": "37549782",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "vanderweele2017sensitivity": {
+  "type": "journal",
+  "authors": [
+   "VanderWeele TJ",
+   "Ding P"
+  ],
+  "title": "Sensitivity analysis in observational research: introducing the E-value",
+  "journal": "Ann Intern Med",
+  "year": 2017,
+  "vol": "167",
+  "issue": "4",
+  "pages": "268-274",
+  "doi": "10.7326/M16-2607",
+  "pmid": "28693043",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "vonelm2007strengthening": {
+  "type": "journal",
+  "authors": [
+   "von Elm E",
+   "Altman DG",
+   "Egger M",
+   "Pocock SJ",
+   "Gøtzsche PC",
+   "Vandenbroucke JP"
+  ],
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies",
+  "journal": "PLoS Med",
+  "year": 2007,
+  "vol": "4",
+  "issue": "10",
+  "pages": "e296",
+  "doi": "10.1371/journal.pmed.0040296",
+  "pmid": "17941714",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "wah2021timeliness": {
+  "type": "journal",
+  "authors": [
+   "Wah W",
+   "Stirling RG",
+   "Ahern S",
+   "Earnest A"
+  ],
+  "title": "Influence of timeliness and receipt of first treatment on geographic variation in non-small cell lung cancer mortality",
+  "journal": "Int J Cancer",
+  "year": 2021,
+  "vol": "148",
+  "issue": "8",
+  "pages": "1828-1838",
+  "doi": "10.1002/ijc.33343",
+  "pmid": "33045098",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "won2018geographic": {
+  "type": "journal",
+  "authors": [
+   "Won YJ",
+   "Jung KW",
+   "Oh CM",
+   "Park EH",
+   "Kong HJ",
+   "Lee DH",
+   "Lee KH"
+  ],
+  "title": "Geographical variations and trends in major cancer incidences throughout Korea during 1999-2013",
+  "journal": "Cancer Res Treat",
+  "year": 2018,
+  "vol": "50",
+  "issue": "4",
+  "pages": "1281-1293",
+  "doi": "10.4143/crt.2017.411",
+  "pmid": "29334607",
+  "verified": "PubMed esummary 2026-11-13"
+ },
+ "bell2015explaining": {
+  "type": "journal",
+  "authors": [
+   "Bell A",
+   "Jones K"
+  ],
+  "title": "Explaining fixed effects: random effects modeling of time-series cross-sectional and panel data",
+  "journal": "Polit Sci Res Methods",
+  "year": 2015,
+  "vol": "3",
+  "issue": "1",
+  "pages": "133-153",
+  "doi": "10.1017/psrm.2014.7",
+  "verified": "Crossref 2026-11-13"
+ },
+ "besag1991bayesian": {
+  "type": "journal",
+  "authors": [
+   "Besag J",
+   "York J",
+   "Mollié A"
+  ],
+  "title": "Bayesian image restoration, with two applications in spatial statistics",
+  "journal": "Ann Inst Stat Math",
+  "year": 1991,
+  "vol": "43",
+  "issue": "1",
+  "pages": "1-20",
+  "doi": "10.1007/BF00116466",
+  "verified": "Crossref 2026-11-13"
+ },
+ "rue2009approximate": {
+  "type": "journal",
+  "authors": [
+   "Rue H",
+   "Martino S",
+   "Chopin N"
+  ],
+  "title": "Approximate Bayesian inference for latent Gaussian models by using integrated nested Laplace approximations",
+  "journal": "J R Stat Soc Series B Stat Methodol",
+  "year": 2009,
+  "vol": "71",
+  "issue": "2",
+  "pages": "319-392",
+  "doi": "10.1111/j.1467-9868.2008.00700.x",
+  "verified": "Crossref 2026-11-13"
+ },
+ "simpson2017penalising": {
+  "type": "journal",
+  "authors": [
+   "Simpson D",
+   "Rue H",
+   "Riebler A",
+   "Martins TG",
+   "Sørbye SH"
+  ],
+  "title": "Penalising model component complexity: a principled, practical approach to constructing priors",
+  "journal": "Stat Sci",
+  "year": 2017,
+  "vol": "32",
+  "issue": "1",
+  "pages": "1-28",
+  "doi": "10.1214/16-STS576",
+  "verified": "Crossref 2026-11-13"
+ },
+ "web:kostat2026cause": {
+  "type": "web",
+  "authors": "Statistics Korea",
+  "title": "Causes of death statistics: deaths by cause (50-item list), sex and administrative district (DT_1B34E13) and by cause, sex and 5-year age group (DT_1B34E01), 2011-2024. Korean Statistical Information Service",
+  "url": "https://kosis.kr",
+  "year": 2026,
+  "accessed": "November 12, 2026"
+ },
+ "web:mois2026population": {
+  "type": "web",
+  "authors": "Ministry of the Interior and Safety",
+  "title": "Resident registration population by district, sex and 5-year age group, 2011-2024",
+  "url": "https://jumin.mois.go.kr",
+  "year": 2026,
+  "accessed": "October 20, 2026"
+ },
+ "web:nhis2026regional": {
+  "type": "web",
+  "authors": "National Health Insurance Service",
+  "title": "Regional medical care utilization statistics: number of persons treated for major diseases by district of residence and age group, lung cancer (C33-C34), 2011-2024",
+  "url": "https://kosis.kr",
+  "year": 2026,
+  "accessed": "November 8, 2026"
+ },
+ "web:rcore2026": {
+  "type": "web",
+  "authors": "R Core Team",
+  "title": "R: a language and environment for statistical computing. Version 4.6.0. Vienna: R Foundation for Statistical Computing",
+  "url": "https://www.R-project.org/",
+  "year": 2026,
+  "accessed": "October 20, 2026"
+ }
+}

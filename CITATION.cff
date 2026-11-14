@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Analysis code for lung cancer deaths relative to the volume of lung cancer care in Korean districts, 2011-2024"
+authors:
+  - family-names: Kim
+    given-names: Seongdae
+    affiliation: Hongik University
+    orcid: "https://orcid.org/0000-0002-1525-0091"
+version: "1.0.0"
+date-released: 2026-11-15
+license: MIT
+repository-code: "https://github.com/Seongdae-Kim-Hongik/lung-cancer-death-care-volume-korea"
+doi: "10.5281/zenodo.24235623"

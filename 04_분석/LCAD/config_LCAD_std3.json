@@ -1,0 +1,466 @@
+{
+ "tag": "LCAD",
+ "outcome_column": "mort__폐암_deaths",
+ "outcome_label_en": "Lung cancer deaths (malignant neoplasms of trachea, bronchus and lung C33-C34, Statistics Korea cause-of-death statistics, annual, place of residence; underlying cause)",
+ "disease_ko": "폐암 사망(진료 대비 초과)",
+ "disease_en": "Lung cancer mortality relative to treated burden",
+ "forced": [
+  "urban_population_share",
+  "physicians_per_1000",
+  "sex_ratio",
+  "fiscal_independence",
+  "pop80_share"
+ ],
+ "candidates": [
+  "ext__genhosp_per100k",
+  "outside_care_share",
+  "ext__cancer_screen_rate",
+  "current_smoking_rate",
+  "prior_tb_share",
+  "coal_plant_host",
+  "factory_land_share",
+  "detached_house_households",
+  "walking_practice_rate",
+  "moderate_pa_rate",
+  "public_sports_facilities_per_100k",
+  "basic_livelihood_rate",
+  "tertiary_educated_share"
+ ],
+ "negative_controls": [
+  "hit_and_run_rate",
+  "traffic_culture_index",
+  "fires_per_10000"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "ext__cancer_screen_rate",
+   "current_smoking_rate",
+   "prior_tb_share",
+   "coal_plant_host",
+   "factory_land_share",
+   "detached_house_households",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "basic_livelihood_rate",
+   "tertiary_educated_share"
+  ],
+  "S2_care_access": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "ext__cancer_screen_rate"
+  ],
+  "S3_smoking_air": [
+   "current_smoking_rate",
+   "prior_tb_share",
+   "coal_plant_host",
+   "factory_land_share",
+   "detached_house_households"
+  ],
+  "S4_activity": [
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k"
+  ],
+  "S5_socioeconomic": [
+   "basic_livelihood_rate",
+   "tertiary_educated_share"
+  ],
+  "S6_core": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "current_smoking_rate",
+   "coal_plant_host",
+   "walking_practice_rate",
+   "basic_livelihood_rate"
+  ],
+  "S1b_obesity_sensitivity": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "ext__cancer_screen_rate",
+   "current_smoking_rate",
+   "prior_tb_share",
+   "coal_plant_host",
+   "factory_land_share",
+   "detached_house_households",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "basic_livelihood_rate",
+   "tertiary_educated_share",
+   "obesity_rate"
+  ]
+ },
+ "sensitivity_sets": [
+  "S1b_obesity_sensitivity"
+ ],
+ "sensitivity_only_vars": [
+  "obesity_rate",
+  "ill_defined_death_share",
+  "coal_plant_host_or_adjacent",
+  "coal_capacity_gw"
+ ],
+ "offset_column": "population",
+ "offset_sensitivity": null,
+ "offset_fallback": null,
+ "exclude_years": [],
+ "vars": {
+  "urban_population_share": {
+   "key": "urban_population_share",
+   "column": "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구",
+   "transform": "pct_of_pop",
+   "label_en": "Urban-zone population share (%)",
+   "label_ko": "도시지역 인구 비율",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구"
+  },
+  "physicians_per_1000": {
+   "key": "physicians_per_1000",
+   "column": "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)",
+   "transform": "none",
+   "label_en": "Physicians per 1000",
+   "label_ko": "인구 천명당 의사 수",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)"
+  },
+  "sex_ratio": {
+   "key": "sex_ratio",
+   "column": "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Sex ratio (men per 100 women)",
+   "label_ko": "남녀성비",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)"
+  },
+  "fiscal_independence": {
+   "key": "fiscal_independence",
+   "column": "eloc__DT_1YL20891__재정자주도(세입과목개편전)",
+   "transform": "none",
+   "label_en": "Fiscal independence (%)",
+   "label_ko": "재정자주도",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "eloc__DT_1YL20891__재정자주도(세입과목개편전)"
+  },
+  "pop80_share": {
+   "key": "pop80_share",
+   "column": "ext__pop80_share",
+   "transform": "none",
+   "label_en": "Population aged 80+ share (%)",
+   "label_ko": "80세 이상 인구 비율",
+   "expected_direction": "",
+   "role": "forced",
+   "raw_key": "ext__pop80_share"
+  },
+  "ext__genhosp_per100k": {
+   "key": "ext__genhosp_per100k",
+   "column": "ext__genhosp_per100k",
+   "transform": "none",
+   "label_en": "ext__genhosp_per100k",
+   "label_ko": "ext__genhosp_per100k",
+   "expected_direction": "- (종합병원 밀도: 진단·병기 결정·수술·항암 치료 접근 → 진료 대비 사망 감소)",
+   "role": "candidate",
+   "raw_key": "ext__genhosp_per100k"
+  },
+  "outside_care_share": {
+   "key": "outside_care_share",
+   "column": "ext__outside_care_share",
+   "transform": "none",
+   "label_en": "Out-of-district outpatient share (%)",
+   "label_ko": "관외 외래 진료 비율",
+   "expected_direction": "+ (관외 진료 비율: 지역 안 진료 역량 부족·원거리 치료 → 치료 지연·중단)",
+   "role": "candidate",
+   "raw_key": "ext__outside_care_share"
+  },
+  "ext__cancer_screen_rate": {
+   "key": "ext__cancer_screen_rate",
+   "column": "ext__cancer_screen_rate",
+   "transform": "none",
+   "label_en": "ext__cancer_screen_rate",
+   "label_ko": "ext__cancer_screen_rate",
+   "expected_direction": "- (국가암검진 수검률: 조기 발견 문화·접근, 2019부터 폐암 고위험군 저선량 CT 포함)",
+   "role": "candidate",
+   "raw_key": "ext__cancer_screen_rate"
+  },
+  "current_smoking_rate": {
+   "key": "current_smoking_rate",
+   "column": "kchs__DT_H_SM__SR",
+   "transform": "none",
+   "label_en": "Current smoking rate (SR %)",
+   "label_ko": "현재흡연율",
+   "expected_direction": "+ (현재흡연: 진료 발생을 넘어 조직형(편평·소세포)·동반 COPD·진단 후 흡연 지속이 생존을 낮춤)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_SM__SR"
+  },
+  "prior_tb_share": {
+   "key": "prior_tb_share",
+   "column": "chk__유질환자_폐결핵_수검자대비비율",
+   "transform": "none",
+   "label_en": "Screening prior pulmonary tuberculosis share (%)",
+   "label_ko": "검진 폐결핵 유질환자 비율",
+   "expected_direction": "+ (폐결핵 병력: 감별 진단 지연·폐 기능 저하)",
+   "role": "candidate",
+   "raw_key": "chk__유질환자_폐결핵_수검자대비비율"
+  },
+  "coal_plant_host": {
+   "key": "coal_plant_host",
+   "column": "ext__coal_host",
+   "transform": "none",
+   "label_en": "Coal-fired power plant host district (0/1)",
+   "label_ko": "석탄 화력발전소 소재(0/1)",
+   "expected_direction": "+ (석탄 화력발전소 소재: PM2.5 노출, 대기오염은 폐암 진단 후 생존도 낮춤)",
+   "role": "candidate",
+   "raw_key": "ext__coal_host"
+  },
+  "factory_land_share": {
+   "key": "factory_land_share",
+   "column": "ext__factory_land_share",
+   "transform": "none",
+   "label_en": "Factory land share of district area (%)",
+   "label_ko": "공장용지 면적 비율",
+   "expected_direction": "+ (공장용지 비율: 산업 배출·직업성 노출 대리)",
+   "role": "candidate",
+   "raw_key": "ext__factory_land_share"
+  },
+  "detached_house_households": {
+   "key": "detached_house_households",
+   "column": "ext__detached_hh_share",
+   "transform": "none",
+   "label_en": "Households in detached houses (%)",
+   "label_ko": "단독주택 거주 가구 비율",
+   "expected_direction": "+ (단독주택 거주 가구 비율: 실내 라돈·고형연료 노출 대리)",
+   "role": "candidate",
+   "raw_key": "ext__detached_hh_share"
+  },
+  "walking_practice_rate": {
+   "key": "walking_practice_rate",
+   "column": "kchs__DT_H_EX_WALK__SR",
+   "transform": "none",
+   "label_en": "Walking practice rate (SR %)",
+   "label_ko": "걷기 실천율",
+   "expected_direction": "- (걷기 실천: 진단 전 신체활동·체력이 폐암 생존·치료 적합성과 관련)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_EX_WALK__SR"
+  },
+  "moderate_pa_rate": {
+   "key": "moderate_pa_rate",
+   "column": "kchs__DT_H_EX_PHY__SR",
+   "transform": "none",
+   "label_en": "Moderate-or-higher physical activity rate (SR %)",
+   "label_ko": "중강도 이상 신체활동 실천율",
+   "expected_direction": "- (중강도 이상 신체활동: 같은 근거)",
+   "role": "candidate",
+   "raw_key": "kchs__DT_H_EX_PHY__SR"
+  },
+  "public_sports_facilities_per_100k": {
+   "key": "public_sports_facilities_per_100k",
+   "column": "fac__total",
+   "transform": "per100k",
+   "label_en": "Public sports facilities per 100k",
+   "label_ko": "공공체육시설 수(10만 명당)",
+   "expected_direction": "- (공공체육시설 밀도: 신체활동 환경)",
+   "role": "candidate",
+   "raw_key": "fac__total"
+  },
+  "basic_livelihood_rate": {
+   "key": "basic_livelihood_rate",
+   "column": "ext__basic_livelihood_rate",
+   "transform": "none",
+   "label_en": "Basic-livelihood security recipient rate (%)",
+   "label_ko": "국민기초생활보장 수급자 비율",
+   "expected_direction": "+ (박탈: 늦은 병기·치료 미시행·비용 장벽)",
+   "role": "candidate",
+   "raw_key": "ext__basic_livelihood_rate"
+  },
+  "tertiary_educated_share": {
+   "key": "tertiary_educated_share",
+   "column": "ext__tertiary_educated_share",
+   "transform": "none",
+   "label_en": "Tertiary-educated share (%)",
+   "label_ko": "고등교육 이수 비율",
+   "expected_direction": "- (고등교육: 건강 문해·증상 인지·치료 순응)",
+   "role": "candidate",
+   "raw_key": "ext__tertiary_educated_share"
+  },
+  "obesity_rate": {
+   "key": "obesity_rate",
+   "column": "kchs__DT_H_OBE_OBE__SR",
+   "transform": "none",
+   "label_en": "Obesity rate (self-reported SR %)",
+   "label_ko": "비만율(자가보고)",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "kchs__DT_H_OBE_OBE__SR"
+  },
+  "ill_defined_death_share": {
+   "key": "ill_defined_death_share",
+   "column": "ext__ill_defined_share",
+   "transform": "none",
+   "label_en": "Ill-defined cause-of-death share (R00-R99, %)",
+   "label_ko": "불명확 사인 사망 비율(R00-R99)",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "ext__ill_defined_share"
+  },
+  "coal_plant_host_or_adjacent": {
+   "key": "coal_plant_host_or_adjacent",
+   "column": "ext__coal_near",
+   "transform": "none",
+   "label_en": "Coal plant host or adjacent district (0/1)",
+   "label_ko": "석탄 발전소 소재·인접(0/1)",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "ext__coal_near"
+  },
+  "coal_capacity_gw": {
+   "key": "coal_capacity_gw",
+   "column": "ext__coal_gw",
+   "transform": "none",
+   "label_en": "Coal-fired capacity hosted (GW)",
+   "label_ko": "석탄 화력 설비용량(GW)",
+   "expected_direction": "",
+   "role": "candidate_sensitivity",
+   "raw_key": "ext__coal_gw"
+  },
+  "hit_and_run_rate": {
+   "key": "hit_and_run_rate",
+   "column": "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)",
+   "transform": "none",
+   "label_en": "Hit-and-run traffic accident rate (%)",
+   "label_ko": "뺑소니 교통사고율",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)"
+  },
+  "traffic_culture_index": {
+   "key": "traffic_culture_index",
+   "column": "eloc__DT_1YL20331__지수__계",
+   "transform": "none",
+   "label_en": "Traffic culture index",
+   "label_ko": "교통문화지수",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL20331__지수__계"
+  },
+  "fires_per_10000": {
+   "key": "fires_per_10000",
+   "column": "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)",
+   "transform": "none",
+   "label_en": "Fires per 10000 residents",
+   "label_ko": "주민 만명당 화재 건수",
+   "expected_direction": "",
+   "role": "negative",
+   "raw_key": "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)"
+  }
+ },
+ "rules": {
+  "waic_tol": 4.0,
+  "cpo_fail_frac": 0.05,
+  "main_set": "S1_narrative_full",
+  "vif_threshold": 10.0,
+  "vif_action": "report",
+  "multiverse_n": 200,
+  "windows": {
+   "W1_2011-15": [
+    2011,
+    2015
+   ],
+   "W2_2016-19": [
+    2016,
+    2019
+   ],
+   "W3_2020-24": [
+    2020,
+    2024
+   ]
+  },
+  "covid_post_from": 2020,
+  "years": [
+   2011,
+   2024
+  ],
+  "raw_rules": {
+   "likelihood": "forced-only 모형 WAIC 낮은 쪽(Poisson/NB)",
+   "set_choice": "WAIC 최소, 4 이내면 변수 적은 세트",
+   "credible": "95% CrI 1 제외",
+   "vif_drop": 10,
+   "multiverse_specs": 200,
+   "main_model_note": "주모형 = S1_narrative_full(가설 13 + 강제통제 5), offset = E_mtr(진료 대비 사망). 세트를 다시 바꾸지 않음. VIF>10 유지·보고."
+  },
+  "main_model_note": "Principal model = S1_narrative_full (13 district characteristics + 5 forced controls)."
+ },
+ "note": "Outcome: lung cancer (C33-C34) deaths relative to persons treated for lung cancer; offset = log(sex- and age-standardized expected deaths x treatment ratio). Covariates selected from the literature on lung cancer outcomes and access to care: care access and detection (general hospitals, out-of-district outpatient share, cancer screening uptake), smoking, air and residential exposure (coal-fired power plant, factory land, detached-house households), previous pulmonary tuberculosis, physical activity (walking, moderate-to-vigorous activity, public sports facilities) and socioeconomic position (basic livelihood recipients, tertiary education).",
+ "source_json": "sets_LCAD_std3.json",
+ "suffix": "_std3",
+ "offset_E_column": "E_mtr",
+ "offset_E_file": "LCAD_Emtr.csv",
+ "offset_E_sensitivity_column": null,
+ "offset_E_label": "mortality-to-care expected count: sex- and age-standardised lung cancer death E (2 sexes x 18 bands to 85+) multiplied by the same district-year age-standardised ratio of people treated for lung cancer (NHIS C33-C34), rescaled each year to observed deaths",
+ "sets_after_vif": {
+  "S1_narrative_full": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "ext__cancer_screen_rate",
+   "current_smoking_rate",
+   "prior_tb_share",
+   "coal_plant_host",
+   "factory_land_share",
+   "detached_house_households",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "basic_livelihood_rate",
+   "tertiary_educated_share"
+  ],
+  "S2_care_access": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "ext__cancer_screen_rate"
+  ],
+  "S3_smoking_air": [
+   "current_smoking_rate",
+   "prior_tb_share",
+   "coal_plant_host",
+   "factory_land_share",
+   "detached_house_households"
+  ],
+  "S4_activity": [
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k"
+  ],
+  "S5_socioeconomic": [
+   "basic_livelihood_rate",
+   "tertiary_educated_share"
+  ],
+  "S6_core": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "current_smoking_rate",
+   "coal_plant_host",
+   "walking_practice_rate",
+   "basic_livelihood_rate"
+  ],
+  "S1b_obesity_sensitivity": [
+   "ext__genhosp_per100k",
+   "outside_care_share",
+   "ext__cancer_screen_rate",
+   "current_smoking_rate",
+   "prior_tb_share",
+   "coal_plant_host",
+   "factory_land_share",
+   "detached_house_households",
+   "walking_practice_rate",
+   "moderate_pa_rate",
+   "public_sports_facilities_per_100k",
+   "basic_livelihood_rate",
+   "tertiary_educated_share",
+   "obesity_rate"
+  ]
+ }
+}

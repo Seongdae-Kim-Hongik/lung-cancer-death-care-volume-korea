@@ -1,0 +1,180 @@
+{
+ "tag": "LCAD",
+ "outcome_column": "mort__폐암_deaths",
+ "outcome_label_en": "Lung cancer deaths (malignant neoplasms of trachea, bronchus and lung C33-C34, Statistics Korea cause-of-death statistics, annual, place of residence; underlying cause)",
+ "disease_en": "Lung cancer mortality relative to treated burden",
+ "disease_ko": "폐암 사망(진료 대비 초과)",
+ "forced": [
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)"
+ ],
+ "negative_controls": [
+  "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)",
+  "eloc__DT_1YL20331__지수__계",
+  "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)"
+ ],
+ "offset_E_column": "E_mtr",
+ "offset_E_file": "LCAD_Emtr.csv",
+ "offset_E_label": "mortality-to-care expected count: sex- and age-standardised lung cancer death E (2 sexes x 18 bands to 85+) multiplied by the same district-year age-standardised ratio of people treated for lung cancer (NHIS C33-C34), rescaled each year to observed deaths",
+ "graph": "593-edge contact graph (BRCA 2026-11-04 graph_audit), ST_GRAPH=04_분석/LCAD/graph_593.graph",
+ "population_override": [
+  {
+   "year": 2023,
+   "fbd_region": "경상남도창원시",
+   "population": 1009038,
+   "source": "KOSIS DT_1YL20651E 2023 통합창원시 계; FBD_DATA_ZIP/2023.csv 창원 블록이 2022값 복사(유방암 11/4 population_final_audit)"
+  }
+ ],
+ "sensitivity_only_extra": [
+  "ext__ill_defined_share",
+  "ext__coal_near",
+  "ext__coal_gw"
+ ],
+ "sets": {
+  "S1_narrative_full": [
+   "ext__genhosp_per100k",
+   "ext__outside_care_share",
+   "ext__cancer_screen_rate",
+   "kchs__DT_H_SM__SR",
+   "chk__유질환자_폐결핵_수검자대비비율",
+   "ext__coal_host",
+   "ext__factory_land_share",
+   "ext__detached_hh_share",
+   "kchs__DT_H_EX_WALK__SR",
+   "kchs__DT_H_EX_PHY__SR",
+   "fac__total",
+   "ext__basic_livelihood_rate",
+   "ext__tertiary_educated_share"
+  ],
+  "S2_care_access": [
+   "ext__genhosp_per100k",
+   "ext__outside_care_share",
+   "ext__cancer_screen_rate"
+  ],
+  "S3_smoking_air": [
+   "kchs__DT_H_SM__SR",
+   "chk__유질환자_폐결핵_수검자대비비율",
+   "ext__coal_host",
+   "ext__factory_land_share",
+   "ext__detached_hh_share"
+  ],
+  "S4_activity": [
+   "kchs__DT_H_EX_WALK__SR",
+   "kchs__DT_H_EX_PHY__SR",
+   "fac__total"
+  ],
+  "S5_socioeconomic": [
+   "ext__basic_livelihood_rate",
+   "ext__tertiary_educated_share"
+  ],
+  "S6_core": [
+   "ext__genhosp_per100k",
+   "ext__outside_care_share",
+   "kchs__DT_H_SM__SR",
+   "ext__coal_host",
+   "kchs__DT_H_EX_WALK__SR",
+   "ext__basic_livelihood_rate"
+  ]
+ },
+ "transform": {
+  "eloc__DT_1YL20421E__1인당도시지역면적현황__도시지역인구": "share_of_pop(도시지역인구÷population(마스터))",
+  "eloc__DT_1YL20981__인구천명당의료기관종사의사수＜br＞(A÷B×1000)": "none",
+  "eloc__DT_1YL20701__남녀성비＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL20891__재정자주도(세입과목개편전)": "none",
+  "eloc__DT_1YL13901__뺑소니교통사고율＜br＞(A÷B×100)": "none",
+  "eloc__DT_1YL20331__지수__계": "none",
+  "eloc__DT_1YL21081__주민만명당화재발생건수＜br＞(A÷B×10000)": "none",
+  "ext__genhosp_per100k": "none",
+  "ext__outside_care_share": "none",
+  "ext__cancer_screen_rate": "none",
+  "kchs__DT_H_SM__SR": "none",
+  "chk__유질환자_폐결핵_수검자대비비율": "none",
+  "ext__coal_host": "none",
+  "ext__factory_land_share": "none",
+  "ext__detached_hh_share": "none",
+  "kchs__DT_H_EX_WALK__SR": "none",
+  "kchs__DT_H_EX_PHY__SR": "none",
+  "fac__total": "per100k",
+  "ext__basic_livelihood_rate": "none",
+  "ext__tertiary_educated_share": "none",
+  "ext__ill_defined_share": "none",
+  "ext__coal_near": "none",
+  "ext__coal_gw": "none"
+ },
+ "expected_direction": {
+  "ext__genhosp_per100k": "-",
+  "ext__outside_care_share": "+",
+  "ext__cancer_screen_rate": "-",
+  "kchs__DT_H_SM__SR": "+",
+  "chk__유질환자_폐결핵_수검자대비비율": "+",
+  "ext__coal_host": "+",
+  "ext__factory_land_share": "+",
+  "ext__detached_hh_share": "+",
+  "kchs__DT_H_EX_WALK__SR": "-",
+  "kchs__DT_H_EX_PHY__SR": "-",
+  "fac__total": "-",
+  "ext__basic_livelihood_rate": "+",
+  "ext__tertiary_educated_share": "-"
+ },
+ "rules": {
+  "likelihood": "forced-only 모형 WAIC 낮은 쪽(Poisson/NB)",
+  "set_choice": "WAIC 최소, 4 이내면 변수 적은 세트",
+  "credible": "95% CrI 1 제외",
+  "vif_drop": 10,
+  "multiverse_specs": 200,
+  "main_model_note": "Principal model = S1_narrative_full (13 district characteristics + 5 forced controls)."
+ },
+ "note": "Outcome: lung cancer (C33-C34) deaths relative to persons treated for lung cancer; offset = log(sex- and age-standardized expected deaths x treatment ratio). Covariates selected from the literature on lung cancer outcomes and access to care: care access and detection (general hospitals, out-of-district outpatient share, cancer screening uptake), smoking, air and residential exposure (coal-fired power plant, factory land, detached-house households), previous pulmonary tuberculosis, physical activity (walking, moderate-to-vigorous activity, public sports facilities) and socioeconomic position (basic livelihood recipients, tertiary education).",
+ "extra_columns": {
+  "mort__폐암_deaths": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "lcad_deaths"
+  ],
+  "ext__genhosp_per100k": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "genhosp_per100k"
+  ],
+  "ext__outside_care_share": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "outside_care_share"
+  ],
+  "ext__cancer_screen_rate": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "cancer_screen_rate"
+  ],
+  "ext__coal_host": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "coal_host"
+  ],
+  "ext__factory_land_share": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "factory_land_share"
+  ],
+  "ext__detached_hh_share": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "detached_hh_share"
+  ],
+  "ext__basic_livelihood_rate": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "basic_livelihood_rate"
+  ],
+  "ext__tertiary_educated_share": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "tertiary_educated_share"
+  ],
+  "ext__ill_defined_share": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "ill_defined_share"
+  ],
+  "ext__coal_near": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "coal_near"
+  ],
+  "ext__coal_gw": [
+   "EXT_canonical_pool_LCAD_261112.csv",
+   "coal_gw"
+  ]
+ }
+}
